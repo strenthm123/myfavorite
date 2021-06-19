@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+
+}
+
+.oled {
+    width: 175px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+#idv {
+    text-align: center;
+    position: absolute;
+    height: 800px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+    background:linear-gradient(#32a8a6 0%,#4575b0 100%);
+}
+
+.lcd{
+    vertical-align: middle;
+    display:table-cell;
+    position:relative;
+}
